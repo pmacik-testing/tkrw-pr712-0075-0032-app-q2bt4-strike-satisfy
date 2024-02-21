@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-5jtx
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0032-tenant/tkrw-pr712-0075-0032-app/devfile-sample-5jtx@sha256:928b4bbda2e8e4b41e89c4b83cd351cd68f9e721b2f01ae547bfcc6fa6aa33b4
+        name: my-nodejs
+        resources: {}
+status: {}
